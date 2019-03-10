@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.example.triangle.BubbleRelativeLayout
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        app:direction="top"
+        app:background_color="#EEB4B4"
+        app:shadow_color="#DBDBDB"
+        app:shadow_size="8dp"
+        app:radius="10dp"
+        app:offset="70dp"></com.example.triangle.BubbleRelativeLayout>
+
+</RelativeLayout>
